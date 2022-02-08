@@ -1,0 +1,146 @@
+.head {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family:  sans-serif;
+}
+.home:hover{
+    color:rgba(242, 38, 19, 1); 
+}
+.hightlight {
+    color: rgba(242, 38, 19, 1);
+}
+header {
+    background-color: #2e3131;
+    color: #eeeeee;
+    border-bottom: 3px solid rgba(242, 38, 19, 1);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+header .head {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+}
+
+header .head ul {
+    list-style: none;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .head ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header .head ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: #eeeeee;
+    font-weight: bold;
+}
+
+
+#h11 {
+    height: 344px;
+    background: url("./student-849826.jpg");
+    opacity: 10;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#h11 .p22 {
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #eeeeee;
+}
+
+#h11 .p22 h1 {
+    font-size: 3.5rem;
+    padding: 0px;
+    margin: 0px;
+}
+
+#h11 .p22 p {
+    font-size: 20px;
+}
+
+
+#nletter {
+    background-color: #2e3131;
+    color: #eeeeee;
+} 
+
+#nletter .btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+#nletter .btn form {
+    margin-left: auto;
+}
+
+#nletter .btn form .input-field {
+    font-size: 15px;
+    padding: 8px 15px;
+    font-family:  sans-serif;
+    width: 250px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0,0,0.3);  
+    outline: none;
+}
+
+#nletter .btn form button {
+    padding: 9px 20px;
+    font-size: 15px;
+    font-family:  sans-serif;
+    color: #eeeeee;
+    background-color: rgba(242, 38, 19, 1);
+    border-radius: 5px;
+    border: none;
+}
+
+#bottom .last {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#bottom .last .logo {
+    text-align: center;
+}
+
+#bottom .last .logo img {
+    width: 25%;
+}
+#i{
+    transition:background-colour 2s ease-in;
+    transition: all 1s ease;
+}
+#i:hover{
+    color: orangered;
+}

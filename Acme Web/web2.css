@@ -1,0 +1,120 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+
+.hightlight {
+    color: rgba(242, 38, 19, 1);
+}
+header {
+    background-color: #2e3131;
+    color: #eeeeee;
+    border-bottom: 3px solid rgba(242, 38, 19, 1);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+}
+
+header .container ul {
+    list-style: none;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .container ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header .container ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: #eeeeee;
+    font-weight: bold;
+}
+
+#about-text .container {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 40px;
+    padding: 10px 0px;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+
+#about-text .container .about-us p:nth-child(3) {
+    background-color: #2e3131;
+    color: #eeeeee;
+    padding: 20px 30px;;
+}
+
+#about-text .container .what-we-do {
+    padding: 20px 30px;
+    height: 60%;
+    margin-top: 30px;
+    background-color: #2e3131;
+    color: #eeeeee;
+}
+
+
+#newsletter {
+    background-color: #2e3131;
+    color: #eeeeee;
+} 
+
+#newsletter .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+#newsletter .container form {
+    margin-left: auto;
+}
+
+#newsletter .container form .input-field {
+    font-size: 15px;
+    padding: 8px 15px;
+    font-family:  sans-serif;
+    width: 250px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0,0,0.3);  
+    outline: none;
+}
+
+#newsletter .container form button {
+    padding: 9px 20px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #eeeeee;
+    background-color: rgba(242, 38, 19, 1);
+    border-radius: 5px;
+    border: none;
+}
+#i{
+    transition:background-colour 2s ease-in;
+    transition: all 1s ease;
+}
+#i:hover{
+    color: orangered;
+}
